@@ -7,18 +7,29 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        layout()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func layout() {
+        
+        let animView = AnimationMenu()
+        
+        view.addSubview(animView)
+        
+        animView.snp.makeConstraints { (make) in
+            
+            make.centerY.equalToSuperview()
+            make.right.equalTo(-30)
+            make.size.equalTo(CGSize(width: 39, height: 44
+            ))
+        }
     }
-
 }
 

@@ -1,8 +1,14 @@
+
+platform :ios, '10.0'
+
 use_frameworks!
 
 target 'LTAimationMenu_Example' do
+  
   pod 'LTAimationMenu', :path => '../'
 
+  pod 'SnapKit'
+  
   target 'LTAimationMenu_Tests' do
     inherit! :search_paths
 

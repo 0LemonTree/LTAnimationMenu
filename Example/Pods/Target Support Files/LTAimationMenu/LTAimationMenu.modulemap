@@ -1,0 +1,6 @@
+framework module LTAimationMenu {
+  umbrella header "LTAimationMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LTAimationMenu_Tests {
+  umbrella header "Pods-LTAimationMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

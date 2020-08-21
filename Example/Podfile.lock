@@ -1,0 +1,24 @@
+PODS:
+  - LTAimationMenu (1.0.0):
+    - SnapKit
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - LTAimationMenu (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  LTAimationMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTAimationMenu: f6b50d14536489ac4bd65d18829db832b8c2b575
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 68f5df05cfddceeede8db2b2b5ca851f23233925
+
+COCOAPODS: 1.9.3
