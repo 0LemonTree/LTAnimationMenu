@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LTAimationMenu_Example' do
+  pod 'LTAimationMenu', :path => '../'
+
+  target 'LTAimationMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
